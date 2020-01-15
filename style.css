@@ -16,21 +16,29 @@ body {
   border-radius: 30px;
 }
 .wrap-box,
-.wrap-box .blur,
 .wrap-box .content {
+  line-height: 400px;
+  color: #fff;
+}
+.wrap-box,
+.wrap-box .content,
+.wrap-box::before,
+.wrap-box .content::before {
   display: inline-block;
   height: 400px;
   width: 400px;
 }
-.wrap-box .blur {
+.wrap-box::before,
+.wrap-box .content::before {
+  content: '';
   position: absolute;
   filter: blur(36px);
   background: url("/assets/bg-1.png");
   background-position: center;
   background-size: cover;
   z-index: -1;
-}
-.wrap-box .content {
-  line-height: 400px;
-  color: #fff;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
