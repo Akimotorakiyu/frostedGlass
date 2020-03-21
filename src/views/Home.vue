@@ -1,12 +1,16 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <h3>默认</h3>
+    <h1>Default</h1>
     <FrostedGlass image="/assets/bg-1.png" />
-    <h3>使用插槽</h3>
-    <FrostedGlass image="/assets/bg-1.png">你好世界</FrostedGlass>
-    <h3>inline-block</h3>
-    <FrostedGlass image="/assets/bg-1.png" class="block">你好世界</FrostedGlass>
+    <h1>Slot</h1>
+    <FrostedGlass image="/assets/bg-1.png">
+      <h2>Hello world</h2>
+    </FrostedGlass>
+    <h1>Inline-block</h1>
+    <FrostedGlass image="/assets/bg-1.png" class="block">
+      <h2>Hello world</h2>
+    </FrostedGlass>
   </div>
 </template>
 
