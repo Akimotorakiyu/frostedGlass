@@ -4,7 +4,9 @@
       <span></span>
     </div>
     <div class="content">
-      <h1>{{ msg }}</h1>
+      <slot>
+        <h1>{{ msg }}</h1>
+      </slot>
     </div>
   </div>
 </template>
@@ -15,7 +17,10 @@ import Vue from "vue";
 export default Vue.extend({
   name: "HelloWorld",
   props: {
-    msg: String,
+    msg: {
+      type: String,
+      default: "frosted-glass"
+    },
     display: {
       type: String,
       default: "inline-block"
