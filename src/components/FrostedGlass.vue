@@ -1,6 +1,6 @@
 <template>
   <div class="__frosted-glass-wrap-box__">
-    <div class="window-glass">
+    <div class="window-glass" :style="style_window_glass">
       <span></span>
     </div>
     <div class="content">
@@ -13,7 +13,6 @@
 
 <script lang="ts">
 import Vue from "vue";
-
 export default Vue.extend({
   name: "FrostedGlass",
   props: {
@@ -21,21 +20,22 @@ export default Vue.extend({
       type: String,
       default: "frosted-glass"
     },
-    display: {
-      type: String,
-      default: "inline-block"
-    },
     blur: {
       type: String,
       default: "36px"
     },
     image: {
       type: String,
-      default: "./assets/bg-1.png"
+      required: true
     }
   },
   computed: {
-    style_wrap_box_() {}
+    style_window_glass() {
+      return {
+        filter: `blur(${this.blur})`,
+        background: `url(${this.image})`
+      };
+    }
   }
 });
 </script>
@@ -48,9 +48,9 @@ export default Vue.extend({
   border-radius: 1em;
 
   .window-glass {
-    filter: blur(36px);
+    // filter: blur(36px);
+    // background: url('./assets/bg-1.png');
     position: absolute;
-    background: url('./assets/bg-1.png');
     background-position: center;
     background-size: cover;
     z-index: -1;

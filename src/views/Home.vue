@@ -2,11 +2,11 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <h3>默认</h3>
-    <FrostedGlass />
+    <FrostedGlass image="/assets/bg-1.png" />
     <h3>使用插槽</h3>
-    <FrostedGlass>你好世界</FrostedGlass>
+    <FrostedGlass image="/assets/bg-1.png">你好世界</FrostedGlass>
     <h3>inline-block</h3>
-    <FrostedGlass class="block">你好世界</FrostedGlass>
+    <FrostedGlass image="/assets/bg-1.png" class="block">你好世界</FrostedGlass>
   </div>
 </template>
 
