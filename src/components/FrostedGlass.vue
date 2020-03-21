@@ -1,8 +1,6 @@
 <template>
   <div class="__frosted-glass-wrap-box__">
-    <div class="window-glass" :style="style_window_glass">
-      <span></span>
-    </div>
+    <div class="window-glass" :style="style_window_glass"></div>
     <slot>
       <h2>{{ msg }}</h2>
     </slot>
