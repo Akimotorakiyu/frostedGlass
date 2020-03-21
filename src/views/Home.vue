@@ -29,8 +29,8 @@ export default {
 <style lang="stylus" scoped>
 .block {
   display: inline-block;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   border-radius: 1em;
 }
 </style>

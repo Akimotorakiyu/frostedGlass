@@ -31,7 +31,7 @@ export default Vue.extend({
     style_window_glass() {
       return {
         filter: `blur(${this.blur})`,
-        background: `url(${this.image})`
+        "background-image": `url(${this.image})`
       };
     }
   }
