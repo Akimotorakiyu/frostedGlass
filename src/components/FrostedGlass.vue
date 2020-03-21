@@ -45,6 +45,7 @@ export default Vue.extend({
 .__frosted-glass-wrap-box__ {
   overflow: hidden;
   position: relative;
+  border-radius: 1em;
 
   .window-glass {
     filter: blur(36px);

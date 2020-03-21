@@ -27,5 +27,6 @@ export default {
   display: inline-block;
   width: 200px;
   height: 200px;
+  border-radius: 1em;
 }
 </style>
