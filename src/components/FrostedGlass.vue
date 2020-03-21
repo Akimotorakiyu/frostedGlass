@@ -3,11 +3,9 @@
     <div class="window-glass" :style="style_window_glass">
       <span></span>
     </div>
-    <div class="content">
-      <slot>
-        <h1>{{ msg }}</h1>
-      </slot>
-    </div>
+    <slot>
+      <h1>{{ msg }}</h1>
+    </slot>
   </div>
 </template>
 
