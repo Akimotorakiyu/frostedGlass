@@ -1,3 +1,4 @@
-# 磨砂玻璃效果panel
+# frosted-glass
 
-![demo](demo.png)
+
+![usage](usage.png)

@@ -1,12 +1,26 @@
 {
-  "name": "temp",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "frosted-glass",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev":"stylus -w style.styl -o style.css"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "dependencies": {
-    "stylus": "^0.54.7"
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
+    "@vue/cli-plugin-typescript": "~4.2.0",
+    "@vue/cli-plugin-vuex": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "typescript": "~3.7.5",
+    "vue-template-compiler": "^2.6.11"
   }
 }
