@@ -51,7 +51,7 @@ export default Vue.extend({
     position: absolute;
     background-position: center;
     background-size: cover;
-    // z-index: -1;
+    z-index: -1;
     left: 0;
     right: 0;
     top: 0;
