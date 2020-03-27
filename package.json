@@ -1,7 +1,7 @@
 {
   "name": "vue-frosted-glass",
-  "version": "0.1.0",
-  "main": "dist/FrostedGlass.common.js",
+  "version": "0.1.1",
+  "main": "dist/VueFrostedGlass.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name VueFrostedGlass src/components/FrostedGlass.vue",
