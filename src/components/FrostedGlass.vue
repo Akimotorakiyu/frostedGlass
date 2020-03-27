@@ -16,7 +16,7 @@ export default Vue.extend({
       type: String,
       default: "frosted-glass"
     },
-    blur: {
+    filter: {
       type: String,
       default: `blur(36px)`
     },
@@ -28,7 +28,7 @@ export default Vue.extend({
   computed: {
     style_window_glass() {
       return {
-        filter: this.blur,
+        filter: this.filter,
         "background-image": this.backgroundImage
       };
     }
