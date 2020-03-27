@@ -18,9 +18,9 @@ export default Vue.extend({
     },
     blur: {
       type: String,
-      default: "36px"
+      default: `blur(36px)`
     },
-    image: {
+    backgroundImage: {
       type: String,
       required: true
     }
@@ -28,8 +28,8 @@ export default Vue.extend({
   computed: {
     style_window_glass() {
       return {
-        filter: `blur(${this.blur})`,
-        "background-image": `url(${this.image})`
+        filter: this.blur,
+        "background-image": this.backgroundImage
       };
     }
   }

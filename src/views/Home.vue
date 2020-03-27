@@ -2,13 +2,13 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <h1>Default</h1>
-    <FrostedGlass image="/assets/bg-1.png" />
+    <FrostedGlass backgroundImage="url(/assets/bg-1.png)" />
     <h1>Slot</h1>
-    <FrostedGlass image="/assets/bg-1.png">
+    <FrostedGlass backgroundImage="url(/assets/bg-1.png)">
       <h2>Hello world</h2>
     </FrostedGlass>
     <h1>Inline-block</h1>
-    <FrostedGlass image="/assets/bg-1.png" class="inline-block">
+    <FrostedGlass background-image="url(/assets/bg-1.png)" class="inline-block">
       <h2>Hello world</h2>
     </FrostedGlass>
   </div>

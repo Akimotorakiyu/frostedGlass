@@ -11,21 +11,21 @@ npm install vue-frosted-glass
 **notice**
 |属性|描述|值类型|默认|
 |---|---|---|---|
-|image|磨砂背景的源图|图片路径|-|
-|blur|高斯模糊的值|px、em...|36px|
+|background-image|背景|等同于`css` `background-image`|-|
+|filter|filter|等同于`css` `filter`|`blur(36px)`|
 
 ```vue
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <h1>Default</h1>
-    <FrostedGlass image="/assets/bg-1.png" />
+    <FrostedGlass background-image="url(/assets/bg-1.png)" />
     <h1>Slot</h1>
-    <FrostedGlass image="/assets/bg-1.png">
+    <FrostedGlass background-image="url(/assets/bg-1.png)">
       <h2>Hello world</h2>
     </FrostedGlass>
     <h1>Inline-block</h1>
-    <FrostedGlass image="/assets/bg-1.png" class="inline-block">
+    <FrostedGlass background-image="url(/assets/bg-1.png)" class="inline-block">
       <h2>Hello world</h2>
     </FrostedGlass>
   </div>
