@@ -42,3 +42,7 @@
   }
 </style>
 ```
+
+## LICENSE
+
+MIT

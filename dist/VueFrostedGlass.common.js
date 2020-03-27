@@ -1,14 +1,5 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("vue"));
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["FrostedGlass"] = factory(require("vue"));
-	else
-		root["FrostedGlass"] = factory(root["Vue"]);
-})((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__8bbf__) {
-return /******/ (function(modules) { // webpackBootstrap
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -117,7 +108,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ "8bbf":
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE__8bbf__;
+module.exports = require("vue");
 
 /***/ }),
 
@@ -357,5 +348,4 @@ var component = normalizeComponent(
 /***/ })
 
 /******/ })["default"];
-});
-//# sourceMappingURL=FrostedGlass.umd.js.map
+//# sourceMappingURL=VueFrostedGlass.common.js.map
