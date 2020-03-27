@@ -1,4 +1,4 @@
-# frosted-glass
+# vue-frosted-glass
 
 ![usage](usage.png)
 

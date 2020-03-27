@@ -1,7 +1,9 @@
 {
   "name": "vue-frosted-glass",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "main": "dist/VueFrostedGlass.umd.js",
+  "repository": "https://github.com/Akimotorakiyu/vue-frosted-glass.git",
+  "author": "瓦姆乌·湫曗 <2514343130@qq.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name VueFrostedGlass src/components/FrostedGlass.vue",
