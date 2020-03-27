@@ -8,7 +8,7 @@
       <h2>Hello world</h2>
     </FrostedGlass>
     <h1>Inline-block</h1>
-    <FrostedGlass image="/assets/bg-1.png" class="block">
+    <FrostedGlass image="/assets/bg-1.png" class="inline-block">
       <h2>Hello world</h2>
     </FrostedGlass>
   </div>
@@ -27,7 +27,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.block {
+.inline-block {
   display: inline-block;
   width: 400px;
   height: 400px;
