@@ -1,6 +1,6 @@
 # vue-frosted-glass
 
-![usage](usage.png)
+![demo](demo.png)
 
 ## Usage
 
