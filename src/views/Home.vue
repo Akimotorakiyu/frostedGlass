@@ -2,8 +2,6 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <h1>Default</h1>
-    <FrostedGlass backgroundImage="url(/assets/bg-1.png)" />
-    <h1>Slot</h1>
     <FrostedGlass backgroundImage="url(/assets/bg-1.png)">
       <h2>Hello world</h2>
     </FrostedGlass>

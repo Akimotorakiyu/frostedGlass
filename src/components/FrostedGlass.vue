@@ -2,7 +2,6 @@
   <div class="__frosted-glass-wrap-box__">
     <div class="window-glass" :style="style_window_glass"></div>
     <slot>
-      <h2>{{ msg }}</h2>
     </slot>
   </div>
 </template>
@@ -12,10 +11,6 @@ import Vue from "vue";
 export default Vue.extend({
   name: "FrostedGlass",
   props: {
-    msg: {
-      type: String,
-      default: "frosted-glass"
-    },
     filter: {
       type: String,
       default: `blur(36px)`
